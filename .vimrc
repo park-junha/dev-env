@@ -1,4 +1,4 @@
-syntax on
+syntax on " coloring on
 set t_Co=256
 set nocompatible
 set background=dark
