@@ -35,3 +35,7 @@ autocmd FileType cpp setlocal shiftwidth=4
 autocmd FileType sh setlocal tabstop=4
 autocmd FileType sh setlocal softtabstop=4
 autocmd FileType sh setlocal shiftwidth=4
+
+autocmd FileType sql setlocal tabstop=4
+autocmd FileType sql setlocal softtabstop=4
+autocmd FileType sql setlocal shiftwidth=4
