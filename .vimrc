@@ -20,17 +20,13 @@ autocmd BufNewFile,BufRead *.ts set syntax=javascript
 autocmd BufNewFile,BufRead *.tsx set syntax=javascript
 
 " Set indentation settings for specific filetypes
-autocmd FileType python setlocal tabstop=4
-autocmd FileType python setlocal softtabstop=4
-autocmd FileType python setlocal shiftwidth=4
-
 autocmd FileType c setlocal tabstop=4
 autocmd FileType c setlocal softtabstop=4
 autocmd FileType c setlocal shiftwidth=4
 
-autocmd FileType cpp setlocal tabstop=4
-autocmd FileType cpp setlocal softtabstop=4
-autocmd FileType cpp setlocal shiftwidth=4
+autocmd FileType asm setlocal tabstop=4
+autocmd FileType asm setlocal softtabstop=4
+autocmd FileType asm setlocal shiftwidth=4
 
 autocmd FileType sh setlocal tabstop=4
 autocmd FileType sh setlocal softtabstop=4
