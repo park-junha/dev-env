@@ -24,9 +24,9 @@ autocmd FileType c setlocal tabstop=4
 autocmd FileType c setlocal softtabstop=4
 autocmd FileType c setlocal shiftwidth=4
 
-autocmd FileType asm setlocal tabstop=4
-autocmd FileType asm setlocal softtabstop=4
-autocmd FileType asm setlocal shiftwidth=4
+autocmd FileType asm setlocal tabstop=8
+autocmd FileType asm setlocal softtabstop=8
+autocmd FileType asm setlocal shiftwidth=8
 
 autocmd FileType sh setlocal tabstop=4
 autocmd FileType sh setlocal softtabstop=4
