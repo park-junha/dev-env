@@ -18,6 +18,7 @@ set shiftwidth=2
 autocmd BufNewFile,BufRead *.jsx set syntax=javascript
 autocmd BufNewFile,BufRead *.ts set syntax=javascript
 autocmd BufNewFile,BufRead *.tsx set syntax=javascript
+autocmd BufNewFile,BufRead *.ejs set syntax=html
 
 " Set indentation settings for specific filetypes
 autocmd FileType c setlocal tabstop=4
