@@ -21,10 +21,17 @@ autocmd BufNewFile,BufRead *.tsx set syntax=javascript
 autocmd BufNewFile,BufRead *.ejs set syntax=html
 
 " Set indentation settings for specific filetypes
-autocmd FileType c setlocal tabstop=4
-autocmd FileType c setlocal softtabstop=4
-autocmd FileType c setlocal shiftwidth=4
+autocmd FileType go setlocal expandtab!
+autocmd FileType go setlocal tabstop=8
+autocmd FileType go setlocal softtabstop=8
+autocmd FileType go setlocal shiftwidth=8
 
+autocmd FileType c setlocal expandtab!
+autocmd FileType c setlocal tabstop=8
+autocmd FileType c setlocal softtabstop=8
+autocmd FileType c setlocal shiftwidth=8
+
+autocmd FileType asm setlocal expandtab!
 autocmd FileType asm setlocal tabstop=8
 autocmd FileType asm setlocal softtabstop=8
 autocmd FileType asm setlocal shiftwidth=8
@@ -32,7 +39,3 @@ autocmd FileType asm setlocal shiftwidth=8
 autocmd FileType sh setlocal tabstop=4
 autocmd FileType sh setlocal softtabstop=4
 autocmd FileType sh setlocal shiftwidth=4
-
-autocmd FileType sql setlocal tabstop=4
-autocmd FileType sql setlocal softtabstop=4
-autocmd FileType sql setlocal shiftwidth=4
