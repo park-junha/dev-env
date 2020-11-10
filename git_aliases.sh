@@ -1,0 +1,18 @@
+#!/bin/bash
+
+git config --global alias.s 'status'
+git config --global alias.c 'checkout'
+git config --global alias.a 'add'
+git config --global alias.rs 'reset HEAD'
+git config --global alias.d 'diff'
+git config --global alias.cm 'commit -m'
+git config --global alias.ca 'commit --amend'
+git config --global alias.p 'push'
+git config --global alias.pf 'push -f'
+git config --global alias.pl 'pull'
+git config --global alias.r 'rebase'
+git config --global alias.ri 'rebase -i'
+git config --global alias.st 'stash'
+git config --global alias.rf 'reflog'
+git config --global alias.b 'branch'
+git config --global alias.cl 'config -l'
