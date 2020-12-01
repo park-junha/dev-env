@@ -35,7 +35,3 @@ autocmd FileType asm setlocal expandtab!
 autocmd FileType asm setlocal tabstop=8
 autocmd FileType asm setlocal softtabstop=8
 autocmd FileType asm setlocal shiftwidth=8
-
-autocmd FileType sh setlocal tabstop=4
-autocmd FileType sh setlocal softtabstop=4
-autocmd FileType sh setlocal shiftwidth=4
