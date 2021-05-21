@@ -8,6 +8,9 @@ set number
 set relativenumber
 set showcmd
 
+" Disable adding newline at end of file
+set nofixendofline
+
 " Default space indents
 set expandtab
 set tabstop=2
